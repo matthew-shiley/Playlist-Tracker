@@ -4,6 +4,7 @@ on:
   schedule:
     # Runs daily at 12:00 UTC (7:00 AM EST)
     - cron: "0 12 * * *"
+  workflow_dispatch:
 
 jobs:
   run-script:
