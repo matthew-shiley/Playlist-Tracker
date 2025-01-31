@@ -28,4 +28,4 @@ jobs:
 
       # Run your Python script
       - name: Run script
-        run: python main.py
+        run: python data_collection.py
