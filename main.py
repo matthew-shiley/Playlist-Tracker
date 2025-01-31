@@ -3,7 +3,7 @@ from spotipy.oauth2 import SpotifyOAuth
 import json
 import os
 from datetime import datetime, timedelta
-# tests
+
 # Load config
 with open("config.json") as f:
     config = json.load(f)
@@ -87,13 +87,14 @@ def main():
     if not os.path.exists(snapshot_file):
         # Save a full snapshot for the month
         save_snapshot(new_tracks)
+        old_tracks = []
     else:
         # Load the most recent snapshot
         with open(snapshot_file, 'r', encoding='utf-8') as f:
             old_tracks = json.load(f)
 
-        # Save the delta for today
-        save_delta(new_tracks, old_tracks)
+    # Save the delta for today
+    save_delta(new_tracks, old_tracks)
 
 
 if __name__ == "__main__":
