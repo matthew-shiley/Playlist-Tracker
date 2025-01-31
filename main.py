@@ -40,7 +40,7 @@ def fetch_playlist_tracks():
 
 def save_snapshot(tracks):
     date_str = datetime.now().strftime("%Y-%m")
-    snapshot_file = f"data/full_snapshot_{date_str}.json"
+    snapshot_file = f"data/snapshot_{date_str}.json"
     os.makedirs('data', exist_ok=True)
     with open(snapshot_file, 'w', encoding='utf-8') as f:
         json.dump(tracks, f, indent=4, ensure_ascii=False)
@@ -82,7 +82,7 @@ def main():
 
     # Check if a full snapshot exists for this month
     current_month = datetime.now().strftime("%Y-%m")
-    snapshot_file = f"data/full_snapshot_{current_month}.json"
+    snapshot_file = f"data/snapshot_{current_month}.json"
 
     if not os.path.exists(snapshot_file):
         # Save a full snapshot for the month
@@ -93,8 +93,8 @@ def main():
         with open(snapshot_file, 'r', encoding='utf-8') as f:
             old_tracks = json.load(f)
 
-    # Save the delta for today
-    save_delta(new_tracks, old_tracks)
+        # Save the delta for today
+        save_delta(new_tracks, old_tracks)
 
 
 if __name__ == "__main__":
