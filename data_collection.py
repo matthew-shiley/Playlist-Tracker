@@ -42,7 +42,7 @@ def save_data(tracks):
     time = datetime.now()
     
     month = time.strftime("%Y-%m")
-    day = time.strftime("%Y-%m/%d")
+    day = time.strftime("%Y-%m/%Y-%m-%d")
 
     file = f"data/{day}.json"
     os.makedirs('data', exist_ok=True)
