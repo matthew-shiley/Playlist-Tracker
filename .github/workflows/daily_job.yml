@@ -6,6 +6,11 @@ on:
     - cron: "0 12 * * *"
   workflow_dispatch:
 
+# Add permissions for writing
+permissions:
+  contents: write
+  files: write
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
@@ -29,3 +34,14 @@ jobs:
       # Run your Python script
       - name: Run script
         run: python data_collection.py
+
+      # Upload artifacts
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: script-output
+          path: |
+            data/
+            *.json
+            *.csv
+          retention-days: 7
