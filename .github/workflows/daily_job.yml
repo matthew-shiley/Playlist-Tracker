@@ -6,7 +6,6 @@ on:
     - cron: "0 12 * * *"
   workflow_dispatch:
 
-# Add permissions for writing
 permissions:
   contents: write
 
@@ -14,22 +13,42 @@ jobs:
   run-script:
     runs-on: ubuntu-latest
     steps:
-      # Check out the repository
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Added to ensure full git history
 
-      # Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.9  # Specify your Python version
+          python-version: '3.9'
+          cache: 'pip'  # Added pip caching for faster installations
 
-      # Install dependencies (if any)
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install spotipy
+          pip install -r requirements.txt || pip install spotipy
 
-      # Run your Python script
       - name: Run script
+        env:  # Add this if you need environment variables
+          SPOTIPY_CLIENT_ID: ${{ secrets.SPOTIPY_CLIENT_ID }}
+          SPOTIPY_CLIENT_SECRET: ${{ secrets.SPOTIPY_CLIENT_SECRET }}
         run: python data_collection.py
+
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update data files"
+          git push
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: script-output
+          path: |
+            data/
+            *.json
+            *.csv
+          retention-days: 7
