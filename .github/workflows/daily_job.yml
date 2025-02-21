@@ -33,14 +33,3 @@ jobs:
       # Run your Python script
       - name: Run script
         run: python data_collection.py
-
-      # Upload artifacts
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: script-output
-          path: |
-            data/
-            *.json
-            *.csv
-          retention-days: 7
