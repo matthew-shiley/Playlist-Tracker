@@ -9,7 +9,6 @@ on:
 # Add permissions for writing
 permissions:
   contents: write
-  files: write
 
 jobs:
   run-script:
