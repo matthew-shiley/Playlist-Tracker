@@ -13,7 +13,7 @@ PLAYLIST_ID = config['playlist_id']
 
 SPOTIPY_CLIENT_SECRET = os.getenv("SPOTIPY_CLIENT_SECRET")
 
-if client_secret is None:
+if SPOTIPY_CLIENT_SECRET is None:
     print("SPOTIPY_CLIENT_SECRET is not set")
 else:
     print("SPOTIPY_CLIENT_SECRET loaded successfully")
