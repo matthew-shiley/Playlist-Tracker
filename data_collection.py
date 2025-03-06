@@ -7,16 +7,11 @@ from datetime import datetime
 with open("config.json") as f:
     config = json.load(f)
 
-SPOTIPY_CLIENT_ID = config['client_id']
 SPOTIPY_REDIRECT_URI = config['redirect_uri']
 PLAYLIST_ID = config['playlist_id']
 
+SPOTIPY_CLIENT_ID = os.getenv("SPOTIPY_CLIENT_ID")
 SPOTIPY_CLIENT_SECRET = os.getenv("SPOTIPY_CLIENT_SECRET")
-
-if SPOTIPY_CLIENT_SECRET is None:
-    print("SPOTIPY_CLIENT_SECRET is not set")
-else:
-    print("SPOTIPY_CLIENT_SECRET loaded successfully")
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     client_id=SPOTIPY_CLIENT_ID,
