@@ -4,16 +4,20 @@ import json
 import os
 from datetime import datetime
 
-# Load config
 with open("config.json") as f:
     config = json.load(f)
 
 SPOTIPY_CLIENT_ID = config['client_id']
-SPOTIPY_CLIENT_SECRET = process.env.SPOTIPY_CLIENT_SECRET
 SPOTIPY_REDIRECT_URI = config['redirect_uri']
 PLAYLIST_ID = config['playlist_id']
 
-# Initialize Spotify API client
+SPOTIPY_CLIENT_SECRET = os.getenv("SPOTIPY_CLIENT_SECRET")
+
+if client_secret is None:
+    print("SPOTIPY_CLIENT_SECRET is not set")
+else:
+    print("SPOTIPY_CLIENT_SECRET loaded successfully")
+
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     client_id=SPOTIPY_CLIENT_ID,
     client_secret=SPOTIPY_CLIENT_SECRET,
