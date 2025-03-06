@@ -9,7 +9,7 @@ with open("config.json") as f:
     config = json.load(f)
 
 SPOTIPY_CLIENT_ID = config['client_id']
-SPOTIPY_CLIENT_SECRET = secrets.SPOTIPY_CLIENT_SECRET
+SPOTIPY_CLIENT_SECRET = process.env.SPOTIPY_CLIENT_SECRET
 SPOTIPY_REDIRECT_URI = config['redirect_uri']
 PLAYLIST_ID = config['playlist_id']
 
