@@ -1,0 +1,394 @@
+[
+    {
+        "name": "Quiero Ver",
+        "artist": "Café Tacvba",
+        "album": "SINO",
+        "release_date": "2007-01-01",
+        "url": "https://open.spotify.com/track/7s41ZGjQB5Ur8T0fQlk5uM",
+        "added_at": "2025-01-31T02:31:11Z"
+    },
+    {
+        "name": "Noisy Night",
+        "artist": "P.K.14",
+        "album": "Who Who Who and Who Who Who",
+        "release_date": "2004-01-01",
+        "url": "https://open.spotify.com/track/0Ps0c3WQQZXWiDCM8bubAy",
+        "added_at": "2025-03-01T01:28:00Z"
+    },
+    {
+        "name": "Adiós",
+        "artist": "Gustavo Cerati",
+        "album": "Ahí Vamos",
+        "release_date": "2006-04-04",
+        "url": "https://open.spotify.com/track/1rh4kDY9T4fHVDum8Foi5k",
+        "added_at": "2025-03-04T02:23:34Z"
+    },
+    {
+        "name": "Casey Jones - 2013 Remaster",
+        "artist": "Grateful Dead",
+        "album": "Workingman's Dead",
+        "release_date": "1970",
+        "url": "https://open.spotify.com/track/7LbfuQVct78YoghmoPtsQ8",
+        "added_at": "2025-03-10T17:31:45Z"
+    },
+    {
+        "name": "Ponta de Areia",
+        "artist": "Wayne Shorter",
+        "album": "Native Dancer",
+        "release_date": "1975-01-18",
+        "url": "https://open.spotify.com/track/2SU21YLdwyTnqJpS7Jc3lD",
+        "added_at": "2025-03-14T20:52:08Z"
+    },
+    {
+        "name": "Vivo",
+        "artist": "Gustavo Cerati",
+        "album": "Siempre Es Hoy",
+        "release_date": "2002-11-11",
+        "url": "https://open.spotify.com/track/1ShyiEm2kD0XMA7fNhMIVk",
+        "added_at": "2025-03-17T01:58:15Z"
+    },
+    {
+        "name": "Nacre",
+        "artist": "Susumu Yokota",
+        "album": "Baroque",
+        "release_date": "2022-12-09",
+        "url": "https://open.spotify.com/track/6hraljQ6ebbpE05YBUguCo",
+        "added_at": "2025-03-18T03:11:04Z"
+    },
+    {
+        "name": "Exuma, The Obeah Man",
+        "artist": "Exuma",
+        "album": "Exuma, The Obeah Man",
+        "release_date": "1970-01-01",
+        "url": "https://open.spotify.com/track/6USVk2deCgh4U5QuNve7IV",
+        "added_at": "2025-03-21T19:10:17Z"
+    },
+    {
+        "name": "Children's Corner (arr. A. Caplet for orchestra): The Snow is Dancing",
+        "artist": "Andre Caplet, Claude Debussy, Rheinland-Pfalz State Philharmonic Orchestra, Leif Segerstam",
+        "album": "Debussy-Caplet: Children's Corner Suite",
+        "release_date": "1995-01-31",
+        "url": "https://open.spotify.com/track/2LopMwGQ39ZwVg5ABrJqMF",
+        "added_at": "2025-04-01T23:31:39Z"
+    },
+    {
+        "name": "Seventh Mirror",
+        "artist": "Trees Speak",
+        "album": "Vertigo of Flaws: Emancipation of the Dissonance and Temperaments in Irrational Waveforms",
+        "release_date": "2021-11-26",
+        "url": "https://open.spotify.com/track/6FiNaXA4hG6w8ZZXpUoyDJ",
+        "added_at": "2025-04-02T02:15:51Z"
+    },
+    {
+        "name": "Read The Room",
+        "artist": "The Smile",
+        "album": "Wall Of Eyes",
+        "release_date": "2024-01-26",
+        "url": "https://open.spotify.com/track/4WlKWgWG030Cpatn5P6uGE",
+        "added_at": "2025-04-06T23:20:37Z"
+    },
+    {
+        "name": "Ilha da Luz",
+        "artist": "Ivan Conti",
+        "album": "Poison Fruit",
+        "release_date": "2019-01-25",
+        "url": "https://open.spotify.com/track/1GUvPB0CvpxdELkEIujYWE",
+        "added_at": "2025-04-02T17:03:12Z"
+    },
+    {
+        "name": "Roxy",
+        "artist": "Sandro Brugnolini",
+        "album": "Overground",
+        "release_date": "2024-06-14",
+        "url": "https://open.spotify.com/track/5VBTepz86b6qMEPD4HkyGV",
+        "added_at": "2025-04-02T17:46:30Z"
+    },
+    {
+        "name": "Peace of Mind (Electrosoul)",
+        "artist": "Claro Intelecto",
+        "album": "In Vitro - Volume One",
+        "release_date": "2019-12-06",
+        "url": "https://open.spotify.com/track/4qoa6zOFpSuuwSwJ0SMmFD",
+        "added_at": "2025-04-02T19:33:24Z"
+    },
+    {
+        "name": "Little Star",
+        "artist": "Michel Banabila",
+        "album": "Unspeakable Visions",
+        "release_date": "2024-06-19",
+        "url": "https://open.spotify.com/track/5aAATARfcMRJyrHDCqSia6",
+        "added_at": "2025-04-02T19:39:24Z"
+    },
+    {
+        "name": "Honeycomb",
+        "artist": "Alabaster DePlume",
+        "album": "Cremisan: Prologue To A Blade",
+        "release_date": "2024-10-15",
+        "url": "https://open.spotify.com/track/2A1aXtEALODOTUwAqIgO4D",
+        "added_at": "2025-04-02T19:45:44Z"
+    },
+    {
+        "name": "Fairy Tale - Analog Remaster",
+        "artist": "Joel Vandroogenbroeck",
+        "album": "Far View",
+        "release_date": "2021-11-12",
+        "url": "https://open.spotify.com/track/5vTLvhBBZn0t3uZOYpmWqd",
+        "added_at": "2025-04-02T20:41:30Z"
+    },
+    {
+        "name": "Caught Up",
+        "artist": "Metro Area",
+        "album": "Metro Area (15th Anniversary Edition)",
+        "release_date": "2017-10-27",
+        "url": "https://open.spotify.com/track/40UbkzhNCAxu9RYi1pO09l",
+        "added_at": "2025-04-02T22:14:25Z"
+    },
+    {
+        "name": "Uzi (Pinky Ring)",
+        "artist": "El Michels Affair",
+        "album": "Enter The 37th Chamber",
+        "release_date": "2009-04-21",
+        "url": "https://open.spotify.com/track/29qHvt5WRMBnJbHkeKD8z9",
+        "added_at": "2025-04-03T02:00:36Z"
+    },
+    {
+        "name": "Space",
+        "artist": "Galt MacDermot",
+        "album": "Shapes of Rhythm/Woman Is Sweeter",
+        "release_date": "2000-01-01",
+        "url": "https://open.spotify.com/track/46mXTttlkmrSti6tnlhhOZ",
+        "added_at": "2025-04-03T02:02:01Z"
+    },
+    {
+        "name": "Sovereign",
+        "artist": "Yellow Swans",
+        "album": "Going Places",
+        "release_date": "2010-02-22",
+        "url": "https://open.spotify.com/track/1WQ8j5Xn9MLkkX0U5PRnmZ",
+        "added_at": "2025-04-05T00:04:07Z"
+    },
+    {
+        "name": "PLEOCENE (2020 Remastering)",
+        "artist": "Haruomi Hosono",
+        "album": "omni Sight Seeing (2020 Remastering)",
+        "release_date": "1989",
+        "url": "https://open.spotify.com/track/7lT1p4RAZJcIBulNG9eXSb",
+        "added_at": "2025-04-06T23:02:36Z"
+    },
+    {
+        "name": "Tonight",
+        "artist": "PinkPantheress",
+        "album": "Tonight",
+        "release_date": "2025-04-04",
+        "url": "https://open.spotify.com/track/2s6Jh6GmDhAOsSMII07fVs",
+        "added_at": "2025-04-06T23:20:47Z"
+    },
+    {
+        "name": "なんとなく夢を",
+        "artist": "Yura Yura Teikoku",
+        "album": "美しい",
+        "release_date": "2007",
+        "url": "https://open.spotify.com/track/2qS43D2noNcJFGNPDJ9j9L",
+        "added_at": "2025-04-07T15:50:38Z"
+    },
+    {
+        "name": "A Black Horse",
+        "artist": "The Bayan Mongol Variety Group",
+        "album": "The Bayan Mongol Variety Group",
+        "release_date": "1980-01-17",
+        "url": "https://open.spotify.com/track/5U3l2X32ZY0U6ue9r7ZIeb",
+        "added_at": "2025-04-08T23:18:03Z"
+    },
+    {
+        "name": "My Nighty<angel cloth>",
+        "artist": "Robbie & Mona",
+        "album": "NDE / My Nighty<angel cloth>",
+        "release_date": "2024-09-17",
+        "url": "https://open.spotify.com/track/3RMjv3OgTk790yfIBhUSJN",
+        "added_at": "2025-04-08T23:27:00Z"
+    },
+    {
+        "name": "Catholic Easter Colours",
+        "artist": "Northern Picture Library",
+        "album": "Alaska",
+        "release_date": "1993",
+        "url": "https://open.spotify.com/track/1eEzsl6CrBpAQBR80tgHT0",
+        "added_at": "2025-04-08T23:43:15Z"
+    },
+    {
+        "name": "breeezin'",
+        "artist": "TSUTCHIE",
+        "album": "samurai champloo music record masta",
+        "release_date": "2004-06-23",
+        "url": "https://open.spotify.com/track/2absXYvng1HOrqdLKBVcdJ",
+        "added_at": "2025-04-09T00:17:02Z"
+    },
+    {
+        "name": "The Peach Tree Next Door Grew over Our Fence",
+        "artist": "Dylan Henner",
+        "album": "The Invention of the Human",
+        "release_date": "2020-08-28",
+        "url": "https://open.spotify.com/track/0vHmmScQtHq6p7qZk9Xgfd",
+        "added_at": "2025-04-09T19:32:47Z"
+    },
+    {
+        "name": "Tohmei",
+        "artist": "the hatch",
+        "album": "Tohmei",
+        "release_date": "2025-03-26",
+        "url": "https://open.spotify.com/track/7euC974GsioDx4EkUqn1iB",
+        "added_at": "2025-04-11T18:40:13Z"
+    },
+    {
+        "name": "Ambulance Dub",
+        "artist": "Holy Tongue",
+        "album": "Ambulance",
+        "release_date": "2025-02-21",
+        "url": "https://open.spotify.com/track/296QEkoCBbn3nvUoBxAnPJ",
+        "added_at": "2025-04-11T19:08:44Z"
+    },
+    {
+        "name": "Spaghetti Western",
+        "artist": "Dinastía Moon",
+        "album": "Spaghetti Western",
+        "release_date": "2025-01-10",
+        "url": "https://open.spotify.com/track/2OOhpSJnp5nASHjWbjIRKX",
+        "added_at": "2025-04-11T19:22:38Z"
+    },
+    {
+        "name": "Paseo Inmoral",
+        "artist": "Gustavo Cerati",
+        "album": "Bocanada",
+        "release_date": "1999-06-01",
+        "url": "https://open.spotify.com/track/6VH153hUoK92d0cqsf5l9i",
+        "added_at": "2025-04-13T17:30:28Z"
+    },
+    {
+        "name": "Aqui & Ahora (Los Primeros 3 Minutos)",
+        "artist": "Gustavo Cerati",
+        "album": "Bocanada",
+        "release_date": "1999-06-01",
+        "url": "https://open.spotify.com/track/4RIBojPxQ2o6Z6b81HPmFc",
+        "added_at": "2025-04-13T17:32:00Z"
+    },
+    {
+        "name": "Aqui & Ahora (Y Despues)",
+        "artist": "Gustavo Cerati",
+        "album": "Bocanada",
+        "release_date": "1999-06-01",
+        "url": "https://open.spotify.com/track/3JDBktQHwerKTIxs7MK58D",
+        "added_at": "2025-04-13T17:36:45Z"
+    },
+    {
+        "name": "Es Sólo una Ilusión",
+        "artist": "Gustavo Cerati",
+        "album": "+ Bien",
+        "release_date": "2001-11-06",
+        "url": "https://open.spotify.com/track/2GOLSJLt5AJyfQA6DiJxil",
+        "added_at": "2025-04-13T17:51:03Z"
+    },
+    {
+        "name": "Nemi",
+        "artist": "Josiah Steinbrick",
+        "album": "Liquid / Devotion & Tongue Street Blue",
+        "release_date": "2020-09-18",
+        "url": "https://open.spotify.com/track/17ugr5rYp85T1rHtG02uS5",
+        "added_at": "2025-04-17T00:35:34Z"
+    },
+    {
+        "name": "真っ赤な目っから",
+        "artist": "ズットズレテルズ",
+        "album": "第一集",
+        "release_date": "2019-11-11",
+        "url": "https://open.spotify.com/track/1AOFWsOnUMU9Xq0gFQqcQ8",
+        "added_at": "2025-04-18T03:42:49Z"
+    },
+    {
+        "name": "Pr' Um Samba",
+        "artist": "Egberto Gismonti",
+        "album": "Egberto Gismonti",
+        "release_date": "1969-01-01",
+        "url": "https://open.spotify.com/track/16H9fpb1k6AVxSJHjZwoaO",
+        "added_at": "2025-04-19T20:12:07Z"
+    },
+    {
+        "name": "Salvador",
+        "artist": "Egberto Gismonti",
+        "album": "Egberto Gismonti",
+        "release_date": "1969-01-01",
+        "url": "https://open.spotify.com/track/7qkTUlYqncvIIpbcGLUH6a",
+        "added_at": "2025-04-19T21:20:01Z"
+    },
+    {
+        "name": "Errare Humanum Est",
+        "artist": "Jorge Ben Jor",
+        "album": "A Tabua De Esmeralda",
+        "release_date": "1974-01-01",
+        "url": "https://open.spotify.com/track/27KA6KHjX6dLuEcZAcvEF1",
+        "added_at": "2025-04-24T13:57:04Z"
+    },
+    {
+        "name": "Umleitung",
+        "artist": "Cluster",
+        "album": "Sowiesoso",
+        "release_date": "1976",
+        "url": "https://open.spotify.com/track/66H6ax2eDzkv2nppwphIkb",
+        "added_at": "2025-04-25T02:55:24Z"
+    },
+    {
+        "name": "ひとりぼっちの人工衛星",
+        "artist": "Yura Yura Teikoku",
+        "album": "空洞です",
+        "release_date": "2007",
+        "url": "https://open.spotify.com/track/3gxnckMj581G7RgkfQJZVa",
+        "added_at": "2025-04-25T15:26:13Z"
+    },
+    {
+        "name": "Come Home Baby Julie, Come Home",
+        "artist": "The American Analog Set",
+        "album": "Promise Of Love",
+        "release_date": "2003-06-17",
+        "url": "https://open.spotify.com/track/5dtUZCuSfRGxZhQSBCkAHj",
+        "added_at": "2025-04-25T17:46:30Z"
+    },
+    {
+        "name": "Idag",
+        "artist": "Daniel Ögren, Anna Ahnlund",
+        "album": "Fastingen -92",
+        "release_date": "2020-04-17",
+        "url": "https://open.spotify.com/track/2icKiQsAWwLwR1siV6moaJ",
+        "added_at": "2025-04-25T17:46:58Z"
+    },
+    {
+        "name": "Jesus, Etc.",
+        "artist": "Wilco",
+        "album": "Yankee Hotel Foxtrot",
+        "release_date": "2003-10-07",
+        "url": "https://open.spotify.com/track/4wd09wCccmxUB7XVJp0RNn",
+        "added_at": "2025-04-27T22:18:17Z"
+    },
+    {
+        "name": "Alesund",
+        "artist": "Sun Kil Moon",
+        "album": "Admiral Fell Promises",
+        "release_date": "2010-07-13",
+        "url": "https://open.spotify.com/track/3YvKy6ameYJBvBNSySa4zv",
+        "added_at": "2025-04-28T15:51:04Z"
+    },
+    {
+        "name": "太陽を目指してる",
+        "artist": "kanekoayano",
+        "album": "石の糸",
+        "release_date": "2025-04-25",
+        "url": "https://open.spotify.com/track/0v2IgqI0eFAToLeD44Zhsu",
+        "added_at": "2025-04-29T00:46:06Z"
+    },
+    {
+        "name": "Ionian Sea",
+        "artist": "Hysterical Love Project",
+        "album": "Lashes",
+        "release_date": "2023-03-21",
+        "url": "https://open.spotify.com/track/7IXiwUAgYGJ9rgp86eYw9l",
+        "added_at": "2025-04-29T02:32:31Z"
+    }
+]
